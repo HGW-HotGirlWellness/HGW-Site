@@ -5,16 +5,9 @@
 :root {
   --bg: #0B0E0D;
   --panel: #0F1312;
-  --accent: #B87333; /* copper */
-  --mint: #D8F3DC;   /* tea green */
-  --deep: #004953;   /* midnight green */
+  --accent: #B87333;
+  --mint: #D8F3DC;
+  --deep: #004953;
   --ink: #E8F0EC;
   --muted: #9FB6AE;
-}
-
-/* prose invert tweaks if needed later */
-.prose :where(code):not(:where([class~="not-prose"] *)) {
-  background: rgba(255,255,255,0.06);
-  padding: .15rem .35rem;
-  border-radius: .375rem;
 }
